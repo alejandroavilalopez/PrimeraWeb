@@ -1,0 +1,40 @@
+
+nav{
+    background-color: black;
+    color: white;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    width: 15%;
+    list-style: none;
+}
+
+.menu a{
+    color:burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.logo{
+    flex-grow: 3;
+}
+
+.logo img{
+    width: 40%;
+    height: auto;
+}
+
+.menu a:hover{
+    background-color: cornsilk;
+    border: 6px;
+    border-radius: 3px;
+    color: black;
+}
+
+
